@@ -1,0 +1,324 @@
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@font-face {
+	font-family: "jost";
+	src: url(../josefin-sans/JosefinSans-Bold.ttf);
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+// phone styles
+
+
+body{
+	font-family: "jost";
+	font-size: 2rem;
+
+}
+
+    .pc-nav{
+        display: none ;
+    }
+
+.mobile-nav{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	
+	
+	padding: 0.8em;
+    img{
+        width: 50%;
+        height: 50%;
+    }
+   
+    }
+.hamburger-menu{
+    height: 3rem;
+    width: 3rem;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid black;
+    gap: 10px;
+	position: absolute;
+	right:20px;
+	top: 20px;
+
+    
+    .line{
+        height: 3px;
+        width: 70%;
+        background-color: black;
+
+    }
+}
+.About{
+	 margin-top: 1rem;
+	h1{
+		margin-top: 4rem;
+		font-weight: bolder;
+		font-size: 45px;
+	}
+	p{
+		margin-top: 2rem;
+		font-size: 20px;
+	}
+	.btn{
+		margin-top: 1rem;
+		.purple{
+			background-color: purple;
+			color: white;
+			border: none;
+			height: 6vh;
+			width: 30vw;
+		}
+		.white{
+			border: 2px solid purple;
+			height: 6vh;
+			width: 30vw;
+		}
+	}
+	.pic{
+		 display: flex;
+		 gap: 30px;
+	
+		img{
+			width: 200px;
+			height: 450px;
+			
+		}
+		.pp3{
+			margin-top: 4rem;
+		}
+		
+	}
+	.watch{
+		display: flex;
+		
+		// margin: 1rem;
+		span{
+			color: purple;
+			
+		}
+		img {
+			
+			margin-top: 2rem;
+			width: 20px;
+			height: 20px;
+			
+		}
+		
+	}
+	.tick{
+		display: flex;
+		img {
+			
+			margin-top: 2rem;
+			width: 20px;
+			height: 20px;
+			
+		}
+
+	}
+}
+.media{
+	margin-top: 2rem;
+	.text{
+		margin-top: 1rem;
+		font-size: 17px;
+		margin-left: 9rem;
+		img{
+			
+			margin-top: 1rem;
+			width: 15rem;
+			height: 20rem;
+		}
+
+	}
+	
+	
+	.mm3{
+		img{
+			margin-top: 1rem;
+			width: 25rem;
+		height: 25rem;
+		}
+		p{
+			margin-top: 1rem;
+			font-size: 20px;
+			width: 60%;
+		}
+
+	}.btn{
+		margin-top: 2rem;
+		background-color: purple;
+		width: 40vw;
+		height: 7vh;
+		color: white;
+	}
+	
+	
+	}
+	
+
+
+
+
+
+
+
+
+
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 568px) {  
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+	
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	.mobile-nav{
+        display: none;
+    }  
+
+		.pc-nav{
+			display: block ;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			justify-content: space-between;
+			ul{
+				display: flex;
+				gap: 30px;
+				a{
+					text-decoration: none;
+					color: black;
+				}
+				img{
+					width: 2rem;
+					height: 2rem;
+				}
+				.dom{
+					color: purple;
+				}
+			}
+		}
+		.About{
+		
+			.btn{
+				margin-top: 1rem;
+				.purple{
+					background-color: purple;
+					color: white;
+					border: none;
+					height: 6vh;
+					width: 10vw;
+				}
+				.white{
+					border: 2px solid purple;
+					height: 6vh;
+					width: 10vw;
+				}
+			}
+		
+	}
+	.media{
+		.btn{
+			width: 10vw;
+			height: 7vh;
+		}
+	}
+}
+	
+	
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
+
+
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+
+/* Set width to make card deck cards 100% width */
+@media (max-width: 950px) { 
+
+}
