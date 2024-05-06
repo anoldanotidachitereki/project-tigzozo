@@ -61,6 +61,16 @@ body {
   font-size: 2rem;
 }
 
+:root {
+  color: white;
+  color: black;
+}
+
+.darkTheme {
+  color: black;
+  color: white;
+}
+
 .pc-nav {
   display: none;
 }
@@ -125,14 +135,14 @@ body {
 }
 .About .pic {
   display: flex;
-  gap: 30px;
+  gap: 10px;
 }
 .About .pic img {
-  width: 200px;
-  height: 450px;
+  width: 25%;
 }
 .About .pic .pp3 {
-  margin-top: 4rem;
+  margin-top: 5rem;
+  width: 25%;
 }
 .About .watch {
   display: flex;
@@ -156,32 +166,235 @@ body {
 
 .media {
   margin-top: 2rem;
+  gap: 30px;
 }
 .media .text {
   margin-top: 1rem;
   font-size: 17px;
-  margin-left: 9rem;
+  font-weight: 200px;
 }
 .media .text img {
   margin-top: 1rem;
-  width: 15rem;
+  width: 100rem;
+  height: 25rem;
+}
+.media .pic17 {
+  display: flex;
+  margin-top: 1rem;
+}
+.media .pic17 img {
+  width: 20rem;
   height: 20rem;
+}
+.media .pic17 .city {
+  margin-top: 7rem;
+  margin-right: 10rem;
+}
+.media .mm3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
 }
 .media .mm3 img {
   margin-top: 1rem;
-  width: 25rem;
+  width: 450px;
   height: 25rem;
 }
 .media .mm3 p {
   margin-top: 1rem;
   font-size: 20px;
-  width: 60%;
+  width: 50%;
+  font-weight: 200px;
 }
 .media .btn {
+  margin-right: 16rem;
   margin-top: 2rem;
   background-color: purple;
   width: 40vw;
   height: 7vh;
+  color: white;
+}
+
+.Services {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.Services .events {
+  margin-top: 1rem;
+  background-image: url(/IMAGEZ/Rectangle\ 27.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 350px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  margin-right: 4%;
+}
+.Services .events p {
+  color: white;
+  position: absolute;
+  right: 45%;
+  bottom: 0;
+}
+.Services img {
+  width: 4rem;
+  height: 4rem;
+  background-color: purple;
+  bottom: 1px;
+  right: 1px;
+  position: absolute;
+}
+.Services .digitalservice {
+  margin-top: 1rem;
+  background-image: url(/IMAGEZ/Screen\ Shot\ 2022-11-24\ at\ 11.35.23.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 350px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  margin-right: 4%;
+}
+.Services .digitalservice img {
+  color: white;
+  background-color: white;
+}
+.Services .girl {
+  margin-top: 1rem;
+  background-image: url(/IMAGEZ/Rectangle\ 47.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 350px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.happyclients {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.happyclients .man2 h3 {
+  margin-top: 1rem;
+  font-size: 25px;
+}
+.happyclients .man2 p {
+  margin-top: 2rem;
+  width: 70%;
+  font-size: 25px;
+}
+.happyclients .man2 img {
+  margin-top: 5rem;
+  width: 450px;
+  height: 50vh;
+}
+.happyclients .happy img {
+  width: 450px;
+  height: 50vh;
+}
+.happyclients .happy h1 {
+  margin-top: 2rem;
+}
+.happyclients .happy h2 {
+  margin-top: 1rem;
+}
+.happyclients .happy p {
+  margin-top: 2rem;
+  font-size: 25px;
+  width: 70%;
+}
+
+.third {
+  margin-top: 2rem;
+}
+.third h3 {
+  text-align: center;
+}
+.third span {
+  font-family: "Arial Narrow Bold", sans-serif;
+}
+.third .lady2 {
+  margin-top: 2rem;
+}
+.third .lady2 img {
+  margin-top: 5rem;
+}
+.third .lady4 {
+  margin-top: 1rem;
+}
+.third .lady4 img {
+  margin-top: 5rem;
+}
+.third .lady6 {
+  margin-top: 1rem;
+}
+.third .lady6 img {
+  margin-top: 5rem;
+}
+
+.tigzozo .tezz {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.tigzozo .tezz p {
+  text-align: center;
+}
+.tigzozo .btn1 {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+.tigzozo .btn1 button {
+  margin-top: 2rem;
+  width: 12vw;
+  height: 7vh;
+  color: white;
+  background-color: purple;
+  border: none;
+  font-size: 30px;
+}
+
+.footer {
+  margin-top: 2rem;
+  background-color: purple;
+  display: flex;
+}
+.footer .mainfooter {
+  margin-top: 1rem;
+}
+.footer .mainfooter p {
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+}
+.footer .mainfooter .copyright {
+  margin-top: 1rem;
+}
+.footer .mainfooter .icons {
+  gap: 1%;
+}
+.footer .main-about {
+  margin-top: 2rem;
+}
+.footer .main-about h1 {
+  color: white;
+}
+.footer .main-about p {
   color: white;
 }
 
