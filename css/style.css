@@ -67,8 +67,17 @@ body {
 }
 
 .darkTheme {
-  color: black;
+  background-color: black;
+  color: white !important;
+}
+.darkTheme .hamburger-menu {
   color: white;
+}
+.darkTheme .pc-nav ul a {
+  color: white;
+}
+.darkTheme .pc-nav ul .dom {
+  color: purple;
 }
 
 .pc-nav {
@@ -112,7 +121,7 @@ body {
 .About h1 {
   margin-top: 4rem;
   font-weight: bolder;
-  font-size: 45px;
+  font-size: 50px;
 }
 .About p {
   margin-top: 2rem;
@@ -142,7 +151,6 @@ body {
 }
 .About .pic .pp3 {
   margin-top: 5rem;
-  width: 25%;
 }
 .About .watch {
   display: flex;
@@ -169,9 +177,10 @@ body {
   gap: 30px;
 }
 .media .text {
+  margin-left: 4rem;
   margin-top: 1rem;
   font-size: 17px;
-  font-weight: 200px;
+  width: 300px;
 }
 .media .text img {
   margin-top: 1rem;
@@ -198,17 +207,20 @@ body {
   margin-top: 1rem;
 }
 .media .mm3 img {
+  margin-left: 13rem;
   margin-top: 1rem;
   width: 450px;
   height: 25rem;
 }
 .media .mm3 p {
+  margin-left: 9rem;
   margin-top: 1rem;
   font-size: 20px;
-  width: 50%;
+  width: 400px;
   font-weight: 200px;
 }
 .media .btn {
+  margin-left: 9rem;
   margin-right: 16rem;
   margin-top: 2rem;
   background-color: purple;
@@ -224,6 +236,7 @@ body {
   justify-content: center;
 }
 .Services .events {
+  margin-left: 60px;
   margin-top: 1rem;
   background-image: url(/IMAGEZ/Rectangle\ 27.png);
   background-size: cover;
@@ -287,15 +300,21 @@ body {
   position: relative;
 }
 .happyclients .man2 h3 {
+  margin-left: 70px;
   margin-top: 1rem;
   font-size: 25px;
 }
+.happyclients .man2 h2 {
+  margin-left: 60px;
+}
 .happyclients .man2 p {
+  margin-left: 70px;
   margin-top: 2rem;
   width: 70%;
   font-size: 25px;
 }
 .happyclients .man2 img {
+  margin-left: 70px;
   margin-top: 5rem;
   width: 450px;
   height: 50vh;
@@ -361,7 +380,7 @@ body {
 }
 .tigzozo .btn1 button {
   margin-top: 2rem;
-  width: 12vw;
+  width: 39vw;
   height: 7vh;
   color: white;
   background-color: purple;
@@ -380,7 +399,7 @@ body {
 .footer .mainfooter p {
   color: white;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 50px;
 }
 .footer .mainfooter .copyright {
   margin-top: 1rem;
@@ -388,14 +407,48 @@ body {
 .footer .mainfooter .icons {
   gap: 1%;
 }
-.footer .main-about {
+.footer .maina-about {
   margin-top: 2rem;
 }
-.footer .main-about h1 {
+.footer .maina-about h1 {
   color: white;
+  text-decoration: underline;
 }
-.footer .main-about p {
+.footer .maina-about p {
   color: white;
+  line-height: 50px;
+  font-size: 25px;
+}
+.footer .maina-services {
+  margin-top: 2rem;
+}
+.footer .maina-services h1 {
+  color: white;
+  text-decoration: underline;
+}
+.footer .maina-services p {
+  color: white;
+  line-height: 50px;
+  font-size: 25px;
+}
+.footer .maina-follow {
+  margin-top: 2rem;
+}
+.footer .maina-follow h1 {
+  color: white;
+  text-decoration: underline;
+}
+.footer .maina-follow p {
+  color: white;
+  line-height: 50px;
+  width: 50%;
+  font-size: 25px;
+}
+
+.flex {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 /*
@@ -459,6 +512,21 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   .media .btn {
     width: 10vw;
     height: 7vh;
+  }
+  .tigzozo .btn1 {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+  }
+  .tigzozo .btn1 button {
+    margin-top: 2rem;
+    width: 12vw;
+    height: 7vh;
+    color: white;
+    background-color: purple;
+    border: none;
+    font-size: 30px;
   }
 }
 /* Extra large devices (large desktops, 1200px and up) */

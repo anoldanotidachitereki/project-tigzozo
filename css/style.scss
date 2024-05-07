@@ -67,8 +67,21 @@ body{
 }
 
 .darkTheme{
-    color: black;
-	color: white;
+    background-color: black;
+	color: white !important;
+	.hamburger-menu{
+		color: white;
+	}
+	.pc-nav{
+		ul{
+			a{
+				color: white;
+			}
+			.dom{
+				color: purple;
+			}
+		}
+	}
 }
 
 // *{
@@ -122,7 +135,7 @@ body{
 	h1{
 		margin-top: 4rem;
 		font-weight: bolder;
-		font-size: 45px;
+		font-size: 50px;
 	}
 	p{
 		margin-top: 2rem;
@@ -148,6 +161,7 @@ body{
 		 gap: 10px;
 	
 		img{
+			
 			width: 25%;
 			
 			
@@ -155,7 +169,7 @@ body{
 		}
 		.pp3{
 			margin-top: 5rem;
-			width: 25%;
+			// width: 25%;
 		 }
 		
 	}
@@ -192,11 +206,13 @@ body{
 	margin-top: 2rem;
 	gap: 30px;
 	.text{
+		margin-left: 4rem;
 		margin-top: 1rem;
 		font-size: 17px;
-		font-weight: 200px;
+		width: 300px;
+	
 
-		//  margin-left: 9rem;
+		
 		img{
 			
 			margin-top: 1rem;
@@ -208,7 +224,7 @@ body{
 	.pic17{
 		display: flex;
 		 margin-top: 1rem;
-		//  margin-left: 9rem;
+		//   margin-left: 1rem;
 		img{
 			width: 20rem;
 			height: 20rem;
@@ -229,19 +245,22 @@ body{
 	
 	
 		 img{
+			margin-left: 13rem;
 		margin-top: 1rem;
 		width: 450px;
 		height: 25rem;
 		}
 		 
 		p{
+			margin-left: 9rem;
 			margin-top: 1rem;
 			font-size: 20px;
-			width: 50%;
+			width: 400px;
 			font-weight: 200px;
 		}
 
 	}.btn{
+		margin-left: 9rem;
 		margin-right: 16rem;
 		margin-top: 2rem;
 		background-color: purple;
@@ -259,6 +278,7 @@ body{
 		justify-content: center;
 	
 		.events{
+			margin-left: 60px;
 			margin-top: 1rem;
 		 background-image: url(/IMAGEZ/Rectangle\ 27.png);
 		 background-size: cover;
@@ -327,15 +347,21 @@ body{
 		 position: relative;
 		 .man2{
 		h3{
+			margin-left: 70px;
 			margin-top: 1rem;
 			font-size: 25px;
 		}
+		h2{
+			margin-left: 60px;
+		}
 		p{
+			margin-left: 70px;
 			margin-top: 2rem;
 			width: 70%;
 			font-size: 25px;
 		}
 		img{
+			margin-left: 70px;
 			margin-top: 5rem;
 			width: 450px;
 			height: 50vh;
@@ -343,6 +369,7 @@ body{
 	}
 	.happy{
 		img{
+			
 			width: 450px;
 			height: 50vh;
 		}
@@ -411,7 +438,7 @@ body{
 		display: flex;
 		button{
 			margin-top: 2rem;
-			 width: 12vw; 
+			 width: 39vw; 
 		 height: 7vh;
 		color: white;
 		background-color: purple;
@@ -431,7 +458,7 @@ body{
 		p{
 			color: white;
 			font-size: 20px;
-			line-height: 30px;
+			line-height: 50px;
 		}
 		.copyright{
 			margin-top: 1rem;
@@ -441,20 +468,58 @@ body{
 			
 		}
 	}
-	.main-about{
+	.maina-about{
 		margin-top: 2rem;
 		h1{
 			color: white;
+			text-decoration: underline;
             
 		}
 		p{
 			color: white;
+			line-height: 50px;
+			font-size: 25px;
 		}
 
 	}
+	.maina-services{
+		margin-top: 2rem;
+        h1{
+            color: white;
+            text-decoration: underline;
+			
+            
+        }
+        p{
+            color: white;
+            line-height: 50px;
+			font-size: 25px;
+        }
+	}
+	.maina-follow{
+		margin-top: 2rem;
+		
+        h1{
+            color: white;
+            text-decoration: underline;
+            
+        }
+        p{
+            color: white;
+			line-height: 50px;
+			width: 50%;
+			font-size: 25px;
+       
+        }
+	}
+	
 
 }
-
+.flex{
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
 
 
 
@@ -571,6 +636,25 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 			width: 10vw;
 			height: 7vh;
 		}
+	}
+	.tigzozo{
+		
+		.btn1{
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			display: flex;
+			button{
+				margin-top: 2rem;
+				 width: 12vw; 
+			 height: 7vh;
+			color: white;
+			background-color: purple;
+			border: none;
+			font-size: 30px;
+			
+			}
+		} 
 	}
 }
 	
