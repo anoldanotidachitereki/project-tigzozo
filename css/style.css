@@ -88,6 +88,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: purple;
+  width: 100%;
+  height: 1%;
+  gap: 2%;
   padding: 0.8em;
 }
 .mobile-nav img {
@@ -96,6 +100,7 @@ body {
 }
 
 .hamburger-menu {
+  margin-top: 4%;
   height: 3rem;
   width: 3rem;
   background: transparent;
@@ -119,9 +124,10 @@ body {
   margin-top: 1rem;
 }
 .About h1 {
-  margin-top: 4rem;
+  margin-top: 1rem;
   font-weight: bolder;
-  font-size: 50px;
+  font-size: 45px;
+  width: 450px;
 }
 .About p {
   margin-top: 2rem;
@@ -145,15 +151,18 @@ body {
 .About .pic {
   display: flex;
   gap: 10px;
+  margin-top: 2%;
 }
 .About .pic img {
-  width: 25%;
+  height: 20vh;
+  width: 19vw;
 }
 .About .pic .pp3 {
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 .About .watch {
   display: flex;
+  gap: 2%;
 }
 .About .watch span {
   color: purple;
@@ -165,6 +174,7 @@ body {
 }
 .About .tick {
   display: flex;
+  gap: 2%;
 }
 .About .tick img {
   margin-top: 2rem;
@@ -177,27 +187,21 @@ body {
   gap: 30px;
 }
 .media .text {
-  margin-left: 4rem;
   margin-top: 1rem;
   font-size: 17px;
-  width: 300px;
-}
-.media .text img {
-  margin-top: 1rem;
-  width: 100rem;
-  height: 25rem;
+  width: 100%;
 }
 .media .pic17 {
   display: flex;
   margin-top: 1rem;
 }
 .media .pic17 img {
-  width: 20rem;
-  height: 20rem;
+  width: 15rem;
+  height: 10rem;
 }
 .media .pic17 .city {
-  margin-top: 7rem;
-  margin-right: 10rem;
+  margin-top: 5rem;
+  margin-right: 5%;
 }
 .media .mm3 {
   display: flex;
@@ -207,21 +211,19 @@ body {
   margin-top: 1rem;
 }
 .media .mm3 img {
-  margin-left: 13rem;
   margin-top: 1rem;
-  width: 450px;
+  width: 350px;
   height: 25rem;
 }
 .media .mm3 p {
-  margin-left: 9rem;
   margin-top: 1rem;
   font-size: 20px;
-  width: 400px;
+  width: 350px;
   font-weight: 200px;
 }
 .media .btn {
   margin-left: 9rem;
-  margin-right: 16rem;
+  margin-right: 21rem;
   margin-top: 2rem;
   background-color: purple;
   width: 40vw;
@@ -230,20 +232,25 @@ body {
 }
 
 .Services {
+  margin-top: 3%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
+.Services h1 {
+  width: 100%;
+  font-size: 24px;
+  font-weight: bold;
+}
 .Services .events {
-  margin-left: 60px;
   margin-top: 1rem;
   background-image: url(/IMAGEZ/Rectangle\ 27.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 70vh;
-  width: 350px;
+  height: 50vh;
+  width: 358px;
   display: flex;
   justify-content: flex-end;
   position: relative;
@@ -269,8 +276,8 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 70vh;
-  width: 350px;
+  height: 60vh;
+  width: 358px;
   display: flex;
   justify-content: flex-end;
   position: relative;
@@ -286,7 +293,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 70vh;
+  height: 60vh;
   width: 350px;
   display: flex;
   justify-content: flex-end;
@@ -294,33 +301,30 @@ body {
 }
 
 .happyclients {
-  margin-top: 4rem;
+  margin-top: 2rem;
   display: flex;
   justify-content: flex-end;
   position: relative;
 }
 .happyclients .man2 h3 {
-  margin-left: 70px;
   margin-top: 1rem;
   font-size: 25px;
 }
-.happyclients .man2 h2 {
-  margin-left: 60px;
-}
 .happyclients .man2 p {
-  margin-left: 70px;
   margin-top: 2rem;
-  width: 70%;
+  width: 90%;
   font-size: 25px;
 }
 .happyclients .man2 img {
-  margin-left: 70px;
-  margin-top: 5rem;
-  width: 450px;
+  margin-top: 2rem;
+  width: 350px;
   height: 50vh;
 }
+.happyclients .happy {
+  margin-top: 3%;
+}
 .happyclients .happy img {
-  width: 450px;
+  width: 350px;
   height: 50vh;
 }
 .happyclients .happy h1 {
@@ -332,35 +336,26 @@ body {
 .happyclients .happy p {
   margin-top: 2rem;
   font-size: 25px;
-  width: 70%;
+  width: 85%;
 }
 
 .third {
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 .third h3 {
   text-align: center;
 }
 .third span {
-  font-family: "Arial Narrow Bold", sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .third .lady2 {
-  margin-top: 2rem;
-}
-.third .lady2 img {
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 .third .lady4 {
-  margin-top: 1rem;
-}
-.third .lady4 img {
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 .third .lady6 {
-  margin-top: 1rem;
-}
-.third .lady6 img {
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 
 .tigzozo .tezz {
@@ -494,6 +489,12 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   .pc-nav ul .dom {
     color: purple;
   }
+  .About {
+    margin-top: 1%;
+  }
+  .About h1 {
+    margin-top: 9rem;
+  }
   .About .btn {
     margin-top: 1rem;
   }
@@ -509,9 +510,72 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     height: 6vh;
     width: 10vw;
   }
+  .About .pic {
+    margin-top: 5%;
+  }
+  .About .pic img {
+    height: 70vh;
+  }
+  .About .pic .pp3 {
+    margin-top: 5%;
+  }
+  .media .text {
+    margin-left: 4rem;
+    width: 350px;
+  }
+  .media .pic17 img {
+    width: 50rem;
+    height: 50vh;
+  }
+  .media .pic17 .city {
+    margin-top: 5rem;
+    margin-right: 5%;
+  }
   .media .btn {
     width: 10vw;
     height: 7vh;
+  }
+  .media .mm3 {
+    margin-top: 1%;
+  }
+  .media .mm3 img {
+    margin-left: 13rem;
+    margin-top: 1rem;
+    width: 550px;
+    height: 25rem;
+  }
+  .Services h1 {
+    font-size: 30px;
+  }
+  .Services .events {
+    height: 70vh;
+    gap: 3%;
+  }
+  .Services .digitalservice {
+    height: 70vh;
+  }
+  .Services .girl {
+    height: 70vh;
+  }
+  .happyclients .man2 h3 {
+    margin-left: 70px;
+    margin-top: 1rem;
+    font-size: 25px;
+  }
+  .happyclients .man2 h2 {
+    margin-left: 60px;
+  }
+  .happyclients .man2 p {
+    margin-left: 70px;
+    margin-top: 2rem;
+    width: 65%;
+    font-size: 25px;
+  }
+  .happyclients .man2 img {
+    margin-left: 70px;
+    margin-top: 2rem;
+    width: 350px;
+    height: 50vh;
   }
   .tigzozo .btn1 {
     align-items: center;
